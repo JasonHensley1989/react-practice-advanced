@@ -54,6 +54,10 @@ body {
   width: 100%;
 }
 
+.label {
+  font-weight: bold;
+}
+
 .task {
   background: #f4f4f4;
   margin: 5px;
