@@ -5,6 +5,7 @@ const Header = ({ title }) => {
     const onClick = () => {
         console.log("Ahoy");
     }
+
   return (
    <header className="header">
         <h1>{title}</h1>
@@ -20,6 +21,8 @@ Header.defaultProps = {
 Header.propTypes = {
     title: PropTypes.string.isRequired,
 }
+
+
 // CSS in Javascript
 
 // const headingStyles = {
