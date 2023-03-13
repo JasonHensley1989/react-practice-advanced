@@ -8,25 +8,32 @@ function App() {
     {
         id: 1,
         text: "Doctors Appointment",
+        day: "March 15 - 230 p.m.",
         reminder: true,
     },
     {
         id: 2,
         text: "Grocery Store",
+        day: "March 25 - 130 a.m.",
         reminder: false,
     },
     {
         id: 3,
         text: "Dentist Appointment",
+        day: "March 13 - 945 p.m.",
         reminder: true,
     }
 ])
 
+// Delete Task
+  const deleteTask = (id) => {
+    console.log('delete', id);
+  }
 
   return (
       <div className="container">
           <Header />
-          <Tasks tasks={tasks}/>
+          <Tasks tasks={tasks} onDelete={deleteTask}/>
       </div>
   );
 }
