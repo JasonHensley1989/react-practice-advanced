@@ -1,19 +1,28 @@
 {
-  "posts": [
+  "tasks": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "id": 2,
+      "text": "Grocery Store",
+      "day": "March 25 - 130 a.m.",
+      "reminder": true
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "text": "Take Test",
+      "day": "Tuesday Noon",
+      "reminder": true,
+      "id": 3
+    },
+    {
+      "text": "Go To Store",
+      "day": "20 Minutes - Today",
+      "reminder": false,
+      "id": 4
+    },
+    {
+      "text": "Test",
+      "day": "Monday",
+      "reminder": true,
+      "id": 5
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
